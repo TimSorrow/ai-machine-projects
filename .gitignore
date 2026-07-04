@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch models
+*.pt
+*.pth
+
+# MLflow tracking data
+mlruns/
+mlflow.db
+
+# Synthetic data directories
+data/
+
+# Local evaluation summaries
+*evaluation_summary.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE configurations
+.vscode/
+.idea/
